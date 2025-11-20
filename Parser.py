@@ -151,4 +151,5 @@ if __name__ == "__main__":
     with open("wiki_tree.json", "w", encoding="utf-8") as f:
         json.dump(tree, f, ensure_ascii=False, indent=4)
 
+
     print("Готово! Файл wiki_tree.json создан.")
